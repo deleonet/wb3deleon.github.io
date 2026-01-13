@@ -1,1 +1,22 @@
 
+:root {
+    --bg-primary: #0a0f18;
+    --bg-secondary: #111827;
+    --accent-primary: #00f2ff; /* Cian Ciber */
+    --accent-security: #ccff00; /* Verde Ácido */
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --border-color: #1f2937;
+    --font-main: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* { box-sizing: border-box; }
+body { 
+    background: var(--bg-primary); 
+    color: var(--text-main); 
+    font-family: var(--font-main); 
+    margin: 0; 
+    overflow-x: hidden;
+}
